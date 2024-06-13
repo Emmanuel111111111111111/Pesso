@@ -1,0 +1,68 @@
+.scale{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 64px 0;
+}
+
+.bread {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+    width:auto;
+    padding: 75px 150px;
+    
+}
+
+.bread .crumb {
+    flex: 60%;
+}
+
+.bread h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    align-items: left;
+    text-align: left;
+    
+    width: auto;
+    margin: 0;
+    font-family: "BRFirma";
+    
+    /* padding: 8px;
+    flex:50%;
+    padding:40px,0 ; */
+    
+}
+
+.bread p{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+    align-items: right;
+    color: #666666;
+
+    margin-bottom: 32px;    
+    width: auto;
+    
+}
+
+.scale h1{
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    align-items: center;
+
+    width: auto;
+    margin-bottom: 24px;
+    font-family: "BRFirma";
+}
+
+.spa{
+    color: #b3b3b3;
+}

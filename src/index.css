@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'PPRadioGrotesk';
+  src: url('../fonts/PPRadioGrotesk/PPRadioGrotesk-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DMSans';
+  src: url('../fonts/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'WorkSans';
+  src: url('../fonts/Work-Sans/WorkSans-VariableFont_wght.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BRFirma";
+  src: url('../fonts/BRFirma/BR\ Firma\ Regular.otf');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'DMSans', Arial, Helvetica, sans-serif;
+}
+

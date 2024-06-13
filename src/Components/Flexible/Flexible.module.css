@@ -1,0 +1,162 @@
+.flex{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 64px 0;
+    margin-bottom: 65px;
+}
+
+.flex p{
+    width: auto;
+    height: 54px;
+    gap: 8px;
+    
+}
+
+.flex h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 24px;
+    
+}
+
+.flex span{
+    color: #D2042D;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+.word{
+    width: 50%;
+    height:auto;
+    gap: 24px;
+    align-self: center;
+}
+
+.bread{
+    width: 100%;
+    height: auto;
+    gap: 38px;
+    display: flex;
+    justify-content: space-between;
+    padding: 106px 81px;
+    margin-top:auto;
+}
+
+.crumb{
+    width: 343px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 117px;
+    border: 1.5px solid #DEDFE3;
+    gap:24px;
+    padding: 25px ;
+    border-radius: 30px;
+}
+
+.icon{
+    list-style: none;
+    display: flex;
+    display: inline-flex;
+    align-items: center;
+    width: 334px;
+    height: auto;
+    padding: 0px;
+    
+}
+.icon img {
+    margin-right: 11px;
+}
+
+.crumb h5{
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 19.36px;
+    display: flex;
+    color: #D2042D;
+    align-self: flex-start;
+}
+
+.crumb span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #53514E;
+    
+    align-self: flex-start;
+}
+
+.crumb p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #030303;
+    text-align: left;
+    
+    
+
+}
+
+.crumb .title{
+    border-radius: 1000px;
+    padding: 13px 48px ;
+    gap: 8px;
+    background-color: transparent;
+    color: #262626;
+    width: 100%;
+
+    border: 1px solid #E7E8E1;
+    box-shadow: 0px -1px 0px 0px #1E1E1E1A inset;
+    box-shadow: 0px 1px 3px 0px #1E1E1E1A;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+.crumb .line {
+    width: 100%;
+    border: 0.5px solid #E7E8E1;
+}
+
+.crumb .title2 {
+    border-radius: 1000px;
+    padding: 13px 48px ;
+    gap: 8px;
+    background-color: transparent;
+    color: #262626;
+    width: 100%;
+
+    border: 1px solid #E7E8E1;
+    box-shadow: 0px -1px 0px 0px #1E1E1E1A inset;
+    box-shadow: 0px 1px 3px 0px #1E1E1E1A;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 32px;
+    background-color: #D2042D;
+}
+
+.crumb h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48.41px;
+    
+    
+    align-self: flex-start;
+}
+
+.crumb h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #53514E;
+    text-align: left;
+}
