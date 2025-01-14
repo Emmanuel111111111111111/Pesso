@@ -5,51 +5,49 @@
     justify-content: center;
     flex-direction: column;
     padding: 64px 0;
+    overflow-x: hidden;
 }
 
 .bread {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start; /* Align items to the top */
     gap: 40px;
-
-    width:auto;
+    width: auto;
     padding: 75px 150px;
-    
 }
 
 .bread .crumb {
     flex: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-.bread h1{
+.bread .crumb h1 {
     font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
-    align-items: left;
+    font-size: 48px;
     text-align: left;
-    
-    width: auto;
     margin: 0;
-    font-family: "BRFirma";
-    
-    /* padding: 8px;
-    flex:50%;
-    padding:40px,0 ; */
-    
+    font-family: "Montserrat";
+    color: #0F141E;
+    width: max-content;
 }
 
-.bread p{
+.bread p {
     font-weight: 400;
     font-size: 19px;
     line-height: 30px;
-    letter-spacing: -0.4px;
-    align-items: right;
+    text-align: left;
     color: #666666;
+    margin-bottom: 32px;
+}
 
-    margin-bottom: 32px;    
-    width: auto;
-    
+.bread .img {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .scale h1{
@@ -66,3 +64,20 @@
 .spa{
     color: #b3b3b3;
 }
+.buttons{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    padding: 6px 16px 6px 16px;
+    gap: 10px;
+    height: 48px;
+    background-color: white;
+    font-size: 15px;
+}
+.activeButton{
+    background-color: #FBE6EA;
+    color: #D2042D;
+}
+
+

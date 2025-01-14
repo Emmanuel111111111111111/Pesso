@@ -6,6 +6,7 @@
     background-color:#0D0D0D;
     width:auto;
     padding: 75px 150px;
+    overflow-x: hidden;
     
 }
 .bread .crumb {

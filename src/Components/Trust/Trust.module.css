@@ -12,6 +12,7 @@
     text-align: center;
     padding: 120px;
     justify-content: center;
+    overflow-x: hidden;
 }
 
 .crumb{

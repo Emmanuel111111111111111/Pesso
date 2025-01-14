@@ -1,6 +1,6 @@
 .word{
     padding: 64px 180px;
-
+    overflow-x: hidden;
     display: flex;
     justify-content: space-between;
     text-align: center;

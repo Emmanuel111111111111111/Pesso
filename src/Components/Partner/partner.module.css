@@ -8,6 +8,7 @@
     background-color: black;
     flex-direction: column;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .About{
@@ -80,7 +81,7 @@
 }
 
 .red{
-    color:#D2042D;
+    color: #B3B3B3;
 }
 
 .img1 {

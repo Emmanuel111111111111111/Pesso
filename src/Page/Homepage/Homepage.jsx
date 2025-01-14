@@ -9,12 +9,12 @@ import { Flexible } from '../../Components/Flexible/Flexible';
 import { Ask } from '../../Components/Ask/Ask';
 import { Start } from '../../Components/Start/Start';
 import { Footer } from '../../Components/Footer/Footer';
+import { Container } from "@chakra-ui/react"
 
 export const HomePage = () => {
     return(
         <div>
             <>
-          <Navbar/>
           <Home/>
           <Trust/>
           <Offer/>
@@ -23,7 +23,6 @@ export const HomePage = () => {
           <Flexible/>
           <Ask/>
           <Start/>
-          <Footer/>
           </>
         </div>
       

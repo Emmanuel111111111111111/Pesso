@@ -1,9 +1,10 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 
 import { getImageUrl } from "../../utilis";
-import styles from "./Home2.module.css";
+import styles from "./Usecase.module.css";
 
-export const Home2 = () => {
+export const UseCase = () => {
     return(
         <div className={styles.biggerDiv}>
         <div className={styles.About}>
@@ -13,7 +14,7 @@ export const Home2 = () => {
                 and propel your success to new heights.
             </p>
             <button className={styles}>
-                Get Started
+               Schedule a Demo
             </button>  
         </div>
         </div>
